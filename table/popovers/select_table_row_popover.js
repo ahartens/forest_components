@@ -1,5 +1,5 @@
 import { TableViewPopoverModel, TableViewPopoverView, TableViewPopoverController } from './table_view_popover.js';
-import { FONT_SIZES, BORDER_RADII, GLOBAL_COLORS } from '../../global.js'
+import { FONT_SIZES, BORDER_RADII, GLOBAL_COLORS } from '../../forest_global.js'
 import {PopupMenuController} from '../../popupmenu/popupmenu_controller.js';
 import {PopupMenuItem} from '../../popupmenu/items/popupmenu_item.js';
 export class SelectTableRowPopoverModel extends TableViewPopoverModel {
