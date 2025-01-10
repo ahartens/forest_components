@@ -1,6 +1,7 @@
-import { SlideSliderController } from "/src/components/metronome/sliding_controller.js";
-import {DraggableCircle} from "/src/components/metronome/draggable_circle.js";
-import { startMetronome, stopMetronome } from "/src/metronome.js";
+import { SlideSliderController } from "./sliding_controller.js";
+import {DraggableCircle} from "./draggable_circle.js";
+import { startMetronome, stopMetronome } from "./metronome.js";
+
 export class SlideController {
     constructor({
         colors = null,

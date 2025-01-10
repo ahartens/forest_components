@@ -1,4 +1,4 @@
-import { Card } from "/src/components/cards/card.js";
+import { Card } from "./card.js";
 
 export class InputCard extends Card {
   constructor(cardData, onSave, allowDisplay = true) {

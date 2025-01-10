@@ -1,5 +1,5 @@
-import { TableView } from "/src/components/table/table_view.js";
-import { TableModel } from "/src/components/table/table_model.js";
+import { TableView } from "./table_view.js";
+import { TableModel } from "./table_model.js";
 import { TextTableViewPopoverController } from './popovers/text_table_view_popover.js';
 import { SelectTableRowPopoverController } from './popovers/select_table_row_popover.js';
 import { MultiSelectTableRowPopoverController } from './popovers/multiselect_table_row_popover.js';

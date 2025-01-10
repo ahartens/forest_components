@@ -1,4 +1,4 @@
-import { drawPlusMinusButton } from "/src/components/buttons.js";
+import { drawPlusMinusButton } from "../../buttons.js";
 import { GLOBAL_COLORS } from "/src/global.js";
 export class PopupMenuItem {
   constructor(label, controller, rightButtonConfig = null) {
