@@ -2,7 +2,7 @@ import { Controller } from '../../core/controller.js';
 import { TableSnapshotterModel } from './table_snapshotter_model.js';
 import { TableSnapshotterView } from './table_snapshotter_view.js';
 
-import { PopupMenuController } from '/src/components/popupmenu/popupmenu_controller.js';
+import { PopupMenuController } from '../../popupmenu/popupmenu_controller.js';
 export class TableSnapshotterController extends Controller {
   constructor(delegate, table_controller) {
     super();
