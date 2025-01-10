@@ -40,6 +40,8 @@ class SplitNavigationView {
         this.parentDiv.innerHTML = '';
         this.parentDiv.style.display = 'flex';
         this.parentDiv.style.position = 'relative';
+        this.parentDiv.style.width = '100%';
+        this.parentDiv.style.height = '100%';
         
         // Create left navigation panel
         this.leftPanel = document.createElement('div');
