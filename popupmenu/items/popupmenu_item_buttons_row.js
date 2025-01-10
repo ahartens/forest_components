@@ -1,5 +1,5 @@
 import { PopupMenuItem } from "./popupmenu_item.js";
-import { GLOBAL_COLORS } from "/forest_global.js";
+import { GLOBAL_COLORS } from "../../forest_global.js";
 
 export class PopupMenuItemButtonsRow extends PopupMenuItem {
     constructor(label, controller, buttons = []) {
