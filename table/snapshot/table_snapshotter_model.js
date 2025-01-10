@@ -4,7 +4,7 @@ import { PopupMenuItemFilter} from '../../popupmenu/items/popupmenu_item_filter.
 import { PopupMenuItemSort} from '../../popupmenu/items/popupmenu_item_sort.js';
 import { PopupMenuItemButtonsRow} from '../../popupmenu/items/popupmenu_item_buttons_row.js';
 import { PopupMenuItemTextInput} from '../../popupmenu/items/popupmenu_item_text_input.js';
-import { GLOBAL_COLORS } from '/src/global.js';
+import { GLOBAL_COLORS } from '/forest_global.js';
 export class TableSnapshotterModel extends Model {
   constructor(controller) {
     super(controller);

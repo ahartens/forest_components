@@ -1,4 +1,4 @@
-import { FONT_SIZES, BORDER_RADII, GLOBAL_COLORS } from '/src/global.js'
+import { FONT_SIZES, BORDER_RADII, GLOBAL_COLORS } from '/forest_global.js'
 
 export class TableRow {
   constructor(tableView) {

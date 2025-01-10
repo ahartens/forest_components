@@ -1,4 +1,4 @@
-import { GLOBAL_COLORS } from '/src/global.js';
+import { GLOBAL_COLORS } from '/forest_global.js';
 
 class PopoverNavigationModel {
     constructor() {

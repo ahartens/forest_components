@@ -1,5 +1,5 @@
 import { PopupMenuItemFilter} from './popupmenu_item_filter.js';
-import { GLOBAL_COLORS } from '/src/global.js';
+import { GLOBAL_COLORS } from '/forest_global.js';
 
 export class PopupMenuItemSort extends PopupMenuItemFilter {
 

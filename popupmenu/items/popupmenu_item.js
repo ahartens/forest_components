@@ -1,5 +1,5 @@
 import { drawPlusMinusButton } from "../../buttons.js";
-import { GLOBAL_COLORS } from "/src/global.js";
+import { GLOBAL_COLORS } from "/forest_global.js";
 export class PopupMenuItem {
   constructor(label, controller, rightButtonConfig = null) {
     this.label = label;
