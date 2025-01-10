@@ -1,4 +1,4 @@
-import { GLOBAL_COLORS } from '/forest_global.js';
+import { GLOBAL_COLORS } from '../forest_global.js';
 class SplitNavigationModel {
     constructor() {
         this.dims = {
