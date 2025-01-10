@@ -1,5 +1,5 @@
 import { PopupMenuItem} from './popupmenu_item.js';
-import { GLOBAL_COLORS } from '/forest_global.js';
+import { GLOBAL_COLORS } from '../../forest_global.js';
 import { MultiSelectDropdown } from '../../multiselect_dropdown.js';
 
 export class PopupMenuItemFilter extends PopupMenuItem {

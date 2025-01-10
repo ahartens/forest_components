@@ -1,5 +1,5 @@
 import { View } from '../core/view.js';
-import { GLOBAL_COLORS } from '/forest_global.js';
+import { GLOBAL_COLORS } from '../forest_global.js';
 
 export class PopupMenuView extends View {
   constructor(model, controller, width) {
