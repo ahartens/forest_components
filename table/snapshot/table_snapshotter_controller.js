@@ -8,7 +8,6 @@ export class TableSnapshotterController extends Controller {
     super();
     this.delegate = delegate;
     this.table_controller = table_controller;
-    this._initializeComponents();
     this._initialize_popup_menu();
   }
 
