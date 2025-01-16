@@ -1,10 +1,12 @@
+import {GLOBAL_COLORS} from "../forest_global.js";
+
 class MobileNavigationModel {
     constructor() {
         this.dims = {
             animationDuration: 300,    // Duration of slide animation in ms
             buttonWidth: 100,          // Width of navigation button
-            buttonHeight: 40,          // Height of navigation button
-            buttonColor: 'white',    // Button background color
+            buttonHeight: 45,          // Height of navigation button
+            buttonColor: GLOBAL_COLORS.accent,    // Button background color
             buttonTextColor: 'black',  // Button text color
             buttonFontSize: 14,        // Button font size in px
             buttonFontFamily: 'SNPro-Bold', // Button font family
@@ -73,17 +75,17 @@ class MobileNavigationView {
         this.navButton = document.createElement('button');
         this.navButton.style.cssText = `
             position: fixed;
-            left: 100vw;
+            left: 103vw;
             bottom: 90px;
-            width: ${this.model.dims.buttonWidth}px;
+            width: ${this.model.dims.buttonHeight}px;
             height: ${this.model.dims.buttonHeight}px;
             background-color: ${this.model.dims.buttonColor};
             color: ${this.model.dims.buttonTextColor};
             border: none;
-            border-radius: 0 20px 20px 0;
+            border-radius: ${this.model.dims.buttonHeight/2}px;
             cursor: pointer;
             z-index: 10000;
-            box-shadow: 2px 0 5px rgba(0,0,0,0.2);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
             display: flex;
             align-items: center;
             justify-content: center;
@@ -95,7 +97,7 @@ class MobileNavigationView {
 
         // Create and add the menu icon
         const menuIcon = document.createElement('img');
-        menuIcon.src = "/assets/icons/menu.svg";
+        menuIcon.src = "/assets/icons/menu-scale.svg";
         menuIcon.style.cssText = `
             width: 24px;
             height: 24px;

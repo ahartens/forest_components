@@ -4,7 +4,7 @@ export const GLOBAL_COLORS = {
     header_dark: '#e0e0e0',
     title: '#f9f9f9',
     text: '#000000',
-    accent: '#000000',
+    accent: '#b3b3b3',
     border: '#e0e0e0',
     border_dark: '#b3b3b3',
     button: '#000000',
