@@ -8,6 +8,7 @@ export class HierarchicalList {
         this.borderRadius = 10; // Border radius for the labels
         this.keyForId = keyForId || null; // Key for the id in the data
         this.lastClickedItem = null; // Add this line
+        this.bottomPadding = dims.bottomPadding || 20;
         
         // Add CSS style for highlighted items
         const style = document.createElement('style');
@@ -34,6 +35,7 @@ export class HierarchicalList {
         backgroundDiv.style.overflow = "auto";
         backgroundDiv.style.backgroundColor = "#f9f9f9"; // Optional background color
         backgroundDiv.style.padding = "10px";
+        backgroundDiv.style.paddingBottom = `${this.bottomPadding}px`;
         parentDiv.appendChild(backgroundDiv);
 
         // Recursive function to create list elements
